@@ -17,6 +17,11 @@ button[aria-label="Надіслати подарунок"],
   display: none;
 }
 
+.sidebarRegionScroller_c25c6d .scroller_c25c6d .container_b6cd66 .scroller_c25c6d .listItem_c96c45:nth-child(4) 
+{
+  display: none;
+}
+
 .controlButton_b6e2f9.fauxDisabled_f4a830.contextMenuContainer_ef18ee 
 {
     display: none;
