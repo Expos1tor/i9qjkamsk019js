@@ -13,6 +13,7 @@ button[aria-label="Розпочати дію"],
 [role="button"][aria-label="Довідка"],
 [role="button"][aria-label="Розпочати відеовиклик"],
 button[aria-label="Надіслати подарунок"],
+{
     display: none;
 }
 
