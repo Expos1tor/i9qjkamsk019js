@@ -53,7 +53,10 @@ button[aria-label="Start An Activity"] {
     display: none;
 }
 
-
+.bd-switch-symbol,
+.slider_cebd1c > svg {
+    display: none;
+}
 
 /* Реклама нитро при выборе качества демки */
 .gradientBackground-MytxDL {
