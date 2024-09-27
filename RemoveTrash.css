@@ -8,49 +8,18 @@ button[aria-label="Отправить подарок"],
 [role="button"][aria-label="Довідка"],
 [role="button"][aria-label="Розпочати відеовиклик"],
 button[aria-label="Надіслати подарунок"],
-
-/* hide nitro and shop tabs in DMs */
 .channel_c91bad .linkButton_c91bad > .link_c91bad[href="/shop"],
-.channel_c91bad .linkButton_c91bad > .link_c91bad[href="/store"] {
-    display: none;
-}
-
-.controlButton_b6e2f9.fauxDisabled_f4a830.contextMenuContainer_ef18ee {
-    display: none;
-}
-
-.scroller_fea3ef > .listItem_c96c45 > .listItemWrapper_dfb2f8 {
-    display: none;
-}
-
+.channel_c91bad .linkButton_c91bad > .link_c91bad[href="/store"],
+.controlButton_b6e2f9.fauxDisabled_f4a830.contextMenuContainer_ef18ee,
+.scroller_fea3ef > .listItem_c96c45 > .listItemWrapper_dfb2f8,
 .children_fc4f04 > .akaBadge__27cd4,
 .children_fc4f04 > .nicknames__12efb,
-{
-    display: none;
-}
-
 .bd-switch-symbol,
-.slider_cebd1c > svg {
-    display: none;
-}
-
-/* Реклама нитро при выборе качества демки */
-.gradientBackground-MytxDL {
-    display: none;
-}
-
-/* Иллюстрация при включении демки */
+.slider_cebd1c > svg,
+.gradientBackground-MytxDL,
 .art-1TvEXv,
-.modalCloseButton-3jqiBN {
-    display: none;
-}
-
-/* 'В эфире' на демках */
-.indicators_ba4b17 {
-    display: none;
-}
-
-/* Слева снизу в футере кнопку "Путешествие" */
+.modalCloseButton-3jqiBN,
+.indicators_ba4b17,
 .footer_aa1bff {
-    display: none;
+    display: none !important;
 }
