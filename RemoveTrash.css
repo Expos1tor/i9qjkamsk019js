@@ -1,21 +1,15 @@
 button[aria-label="Начать активность"],
 button[aria-label="Камера недоступна"],
-button[aria-label="Шумоподавление с помощью Krisp"],
 [role="button"][aria-label="Помощь"],
 div:not(.actionButtons_adcaac):has(> span[class*="disabledButtonWrapper_"]),
 span[class*="disabledButtonWrapper_dd4f85"],
 [role="button"][aria-label="Начать видеозвонок"],
 button[aria-label="Отправить подарок"],
-button[aria-label="Розпочати дію"],
 button[aria-label="Поглинання шуму від Krisp"],
 [role="button"][aria-label="Вхідні"],
 [role="button"][aria-label="Довідка"],
 [role="button"][aria-label="Розпочати відеовиклик"],
 button[aria-label="Надіслати подарунок"],
-button[aria-label="Start An Activity"] 
-{
-    display: none;
-}
 
 /* hide nitro and shop tabs in DMs */
 .channel_c91bad .linkButton_c91bad > .link_c91bad[href="/shop"],
