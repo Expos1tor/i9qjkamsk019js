@@ -1,5 +1,3 @@
-*/
-
 [role="button"][aria-label="Помощь"],
 div:has(> button[aria-label="Открыть звуковую панель"]),
 div:not(.actionButtons_adcaac):has(> span[class*="disabledButtonWrapper_"]),
