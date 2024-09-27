@@ -1,31 +1,12 @@
 */
-
-button[aria-label="Начать активность"],
-button[aria-label="Камера недоступна"],
-button[aria-label="Шумоподавление с помощью Krisp"],
-[role="button"][aria-label="Показать профиль пользователя (недоступно)"],
-[role="button"][aria-label="Показать профиль пользователя"],
-[role="button"][aria-label="Почта"],
 [role="button"][aria-label="Помощь"],
 div:has(> button[aria-label="Открыть звуковую панель"]),
 div:not(.actionButtons_adcaac):has(> span[class*="disabledButtonWrapper_"]),
 span[class*="disabledButtonWrapper_dd4f85"],
 [role="button"][aria-label="Начать видеозвонок"],
 button[aria-label="Отправить подарок"],
-div:has(> button[aria-label="Открыть меню GIF"]),
-div:has(> button[aria-label="Открыть меню выбора стикеров"]),
-button[aria-label="Розпочати дію"],
-button[aria-label="Поглинання шуму від Krisp"],
-[role="button"][aria-label="Показати профіль користувача (недоступно)"],
-[role="button"][aria-label="Показати профіль користувача"],
 [role="button"][aria-label="Вхідні"],
 [role="button"][aria-label="Довідка"],
-div:has(> button[aria-label="Відкрити звукову панель"]),
-[role="button"][aria-label="Розпочати відеовиклик"],
-button[aria-label="Надіслати подарунок"],
-div:has(> button[aria-label="Відкрити програму вибору GIF"]),
-div:has(> button[aria-label="Відкрити програму вибору стікерів"]),
-button[aria-label="Start An Activity"] {
     display: none;
 }
 
