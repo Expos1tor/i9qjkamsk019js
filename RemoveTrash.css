@@ -11,24 +11,15 @@ button[aria-label="Надіслати подарунок"],
 
 /* hide nitro and shop tabs in DMs */
 .channel_c91bad .linkButton_c91bad > .link_c91bad[href="/shop"],
-.channel_c91bad .linkButton_c91bad > .link_c91bad[href="/store"] 
-.channel_c91bad .linkButton_c91bad > .link_c91bad[href="/discover"]
-{
-  display: none;
-}
-
-.sidebarRegionScroller_c25c6d .scroller_c25c6d .container_b6cd66 .scroller_c25c6d .listItem_c96c45:nth-child(4) 
-{
-  display: none;
-}
-
-.controlButton_b6e2f9.fauxDisabled_f4a830.contextMenuContainer_ef18ee 
-{
+.channel_c91bad .linkButton_c91bad > .link_c91bad[href="/store"] {
     display: none;
 }
 
-.scroller_fea3ef > .listItem_c96c45 > .listItemWrapper_dfb2f8 
-{
+.controlButton_b6e2f9.fauxDisabled_f4a830.contextMenuContainer_ef18ee {
+    display: none;
+}
+
+.scroller_fea3ef > .listItem_c96c45 > .listItemWrapper_dfb2f8 {
     display: none;
 }
 
@@ -39,32 +30,27 @@ button[aria-label="Надіслати подарунок"],
 }
 
 .bd-switch-symbol,
-.slider_cebd1c > svg 
-{
+.slider_cebd1c > svg {
     display: none;
 }
 
 /* Реклама нитро при выборе качества демки */
-.gradientBackground-MytxDL 
-{
+.gradientBackground-MytxDL {
     display: none;
 }
 
 /* Иллюстрация при включении демки */
 .art-1TvEXv,
-.modalCloseButton-3jqiBN 
-{
+.modalCloseButton-3jqiBN {
     display: none;
 }
 
 /* 'В эфире' на демках */
-.indicators_ba4b17 
-{
+.indicators_ba4b17 {
     display: none;
 }
 
 /* Слева снизу в футере кнопку "Путешествие" */
-.footer_aa1bff 
-{
+.footer_aa1bff {
     display: none;
 }
