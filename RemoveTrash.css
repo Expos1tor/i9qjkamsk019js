@@ -12,6 +12,7 @@ button[aria-label="Надіслати подарунок"],
 /* hide nitro and shop tabs in DMs */
 .channel_c91bad .linkButton_c91bad > .link_c91bad[href="/shop"],
 .channel_c91bad .linkButton_c91bad > .link_c91bad[href="/store"] 
+.channel_c91bad .linkButton_c91bad > .link_c91bad[href="/discover"]
 {
     display: none;
 }
