@@ -14,7 +14,7 @@ button[aria-label="Надіслати подарунок"],
 .channel_c91bad .linkButton_c91bad > .link_c91bad[href="/store"] 
 .channel_c91bad .linkButton_c91bad > .link_c91bad[href="/discover"]
 {
-    display: none;
+  display: none !important;
 }
 
 .controlButton_b6e2f9.fauxDisabled_f4a830.contextMenuContainer_ef18ee 
