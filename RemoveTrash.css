@@ -1,18 +1,26 @@
+button[aria-label="Начать активность"],
 button[aria-label="Камера недоступна"],
+button[aria-label="Шумоподавление с помощью Krisp"],
 [role="button"][aria-label="Показать профиль пользователя (недоступно)"],
 [role="button"][aria-label="Показать профиль пользователя"],
 [role="button"][aria-label="Помощь"],
+div:has(> button[aria-label="Открыть звуковую панель"]),
 div:not(.actionButtons_adcaac):has(> span[class*="disabledButtonWrapper_"]),
 span[class*="disabledButtonWrapper_dd4f85"],
 [role="button"][aria-label="Начать видеозвонок"],
 button[aria-label="Отправить подарок"],
+div:has(> button[aria-label="Открыть меню GIF"]),
+div:has(> button[aria-label="Открыть меню выбора стикеров"]),
 button[aria-label="Розпочати дію"],
+button[aria-label="Поглинання шуму від Krisp"],
 [role="button"][aria-label="Показати профіль користувача (недоступно)"],
 [role="button"][aria-label="Показати профіль користувача"],
 [role="button"][aria-label="Вхідні"],
 [role="button"][aria-label="Довідка"],
+div:has(> button[aria-label="Відкрити звукову панель"]),
 [role="button"][aria-label="Розпочати відеовиклик"],
 button[aria-label="Надіслати подарунок"],
+button[aria-label="Start An Activity"] 
 {
     display: none;
 }
@@ -24,7 +32,8 @@ button[aria-label="Надіслати подарунок"],
     display: none;
 }
 
-.buttonContainer_b6e2f9 {
+.buttonContainer_b6e2f9 
+{
     display: none;
 }
 
@@ -40,18 +49,31 @@ button[aria-label="Надіслати подарунок"],
 
 .children_fc4f04 > .akaBadge__27cd4,
 .children_fc4f04 > .nicknames__12efb,
-}
+{
     display: none;
 }
 
 .bd-switch-symbol,
-.slider_cebd1c > svg
+.slider_cebd1c > svg 
 {
     display: none;
 }
 
 /* Реклама нитро при выборе качества демки */
 .gradientBackground-MytxDL 
+{
+    display: none;
+}
+
+/* Иллюстрация при включении демки */
+.art-1TvEXv,
+.modalCloseButton-3jqiBN 
+{
+    display: none;
+}
+
+/* 'В эфире' на демках */
+.indicators_ba4b17 
 {
     display: none;
 }
